@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181B91F913EBE49A00B1CA6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B91F813EBE49A00B1CA6E /* UIKit.framework */; };
+		181B91FB13EBE49A00B1CA6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B91FA13EBE49A00B1CA6E /* Foundation.framework */; };
+		181B91FD13EBE49A00B1CA6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B91FC13EBE49A00B1CA6E /* CoreGraphics.framework */; };
+		181B920313EBE49A00B1CA6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181B920113EBE49A00B1CA6E /* InfoPlist.strings */; };
+		181B920613EBE49A00B1CA6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B920513EBE49A00B1CA6E /* main.m */; };
+		181B920913EBE49A00B1CA6E /* imgOrientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B920813EBE49A00B1CA6E /* imgOrientAppDelegate.m */; };
+		181B920C13EBE49A00B1CA6E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181B920A13EBE49A00B1CA6E /* MainWindow.xib */; };
+		181B920F13EBE49A00B1CA6E /* imgOrientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B920E13EBE49A00B1CA6E /* imgOrientViewController.m */; };
+		181B921213EBE49A00B1CA6E /* imgOrientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181B921013EBE49A00B1CA6E /* imgOrientViewController.xib */; };
+		181B921E13EBEE7200B1CA6E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 181B921B13EBEE7200B1CA6E /* 1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181B91F413EBE49A00B1CA6E /* imgOrient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imgOrient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B91F813EBE49A00B1CA6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		181B91FA13EBE49A00B1CA6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		181B91FC13EBE49A00B1CA6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		181B920013EBE49A00B1CA6E /* imgOrient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imgOrient-Info.plist"; sourceTree = "<group>"; };
+		181B920213EBE49A00B1CA6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		181B920413EBE49A00B1CA6E /* imgOrient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imgOrient-Prefix.pch"; sourceTree = "<group>"; };
+		181B920513EBE49A00B1CA6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181B920713EBE49A00B1CA6E /* imgOrientAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgOrientAppDelegate.h; sourceTree = "<group>"; };
+		181B920813EBE49A00B1CA6E /* imgOrientAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imgOrientAppDelegate.m; sourceTree = "<group>"; };
+		181B920B13EBE49A00B1CA6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		181B920D13EBE49A00B1CA6E /* imgOrientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgOrientViewController.h; sourceTree = "<group>"; };
+		181B920E13EBE49A00B1CA6E /* imgOrientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imgOrientViewController.m; sourceTree = "<group>"; };
+		181B921113EBE49A00B1CA6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/imgOrientViewController.xib; sourceTree = "<group>"; };
+		181B921B13EBEE7200B1CA6E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181B91F113EBE49A00B1CA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B91F913EBE49A00B1CA6E /* UIKit.framework in Frameworks */,
+				181B91FB13EBE49A00B1CA6E /* Foundation.framework in Frameworks */,
+				181B91FD13EBE49A00B1CA6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181B91E913EBE49A00B1CA6E = {
+			isa = PBXGroup;
+			children = (
+				181B91FE13EBE49A00B1CA6E /* imgOrient */,
+				181B91F713EBE49A00B1CA6E /* Frameworks */,
+				181B91F513EBE49A00B1CA6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181B91F513EBE49A00B1CA6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181B91F413EBE49A00B1CA6E /* imgOrient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181B91F713EBE49A00B1CA6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181B91F813EBE49A00B1CA6E /* UIKit.framework */,
+				181B91FA13EBE49A00B1CA6E /* Foundation.framework */,
+				181B91FC13EBE49A00B1CA6E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		181B91FE13EBE49A00B1CA6E /* imgOrient */ = {
+			isa = PBXGroup;
+			children = (
+				181B920713EBE49A00B1CA6E /* imgOrientAppDelegate.h */,
+				181B920813EBE49A00B1CA6E /* imgOrientAppDelegate.m */,
+				181B920A13EBE49A00B1CA6E /* MainWindow.xib */,
+				181B920D13EBE49A00B1CA6E /* imgOrientViewController.h */,
+				181B920E13EBE49A00B1CA6E /* imgOrientViewController.m */,
+				181B921013EBE49A00B1CA6E /* imgOrientViewController.xib */,
+				181B921813EBEE5D00B1CA6E /* Images */,
+				181B91FF13EBE49A00B1CA6E /* Supporting Files */,
+			);
+			path = imgOrient;
+			sourceTree = "<group>";
+		};
+		181B91FF13EBE49A00B1CA6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181B920013EBE49A00B1CA6E /* imgOrient-Info.plist */,
+				181B920113EBE49A00B1CA6E /* InfoPlist.strings */,
+				181B920413EBE49A00B1CA6E /* imgOrient-Prefix.pch */,
+				181B920513EBE49A00B1CA6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181B921813EBEE5D00B1CA6E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				181B921B13EBEE7200B1CA6E /* 1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181B91F313EBE49A00B1CA6E /* imgOrient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181B921513EBE49A00B1CA6E /* Build configuration list for PBXNativeTarget "imgOrient" */;
+			buildPhases = (
+				181B91F013EBE49A00B1CA6E /* Sources */,
+				181B91F113EBE49A00B1CA6E /* Frameworks */,
+				181B91F213EBE49A00B1CA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imgOrient;
+			productName = imgOrient;
+			productReference = 181B91F413EBE49A00B1CA6E /* imgOrient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181B91EB13EBE49A00B1CA6E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 181B91EE13EBE49A00B1CA6E /* Build configuration list for PBXProject "imgOrient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 181B91E913EBE49A00B1CA6E;
+			productRefGroup = 181B91F513EBE49A00B1CA6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181B91F313EBE49A00B1CA6E /* imgOrient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181B91F213EBE49A00B1CA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B920313EBE49A00B1CA6E /* InfoPlist.strings in Resources */,
+				181B920C13EBE49A00B1CA6E /* MainWindow.xib in Resources */,
+				181B921213EBE49A00B1CA6E /* imgOrientViewController.xib in Resources */,
+				181B921E13EBEE7200B1CA6E /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181B91F013EBE49A00B1CA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B920613EBE49A00B1CA6E /* main.m in Sources */,
+				181B920913EBE49A00B1CA6E /* imgOrientAppDelegate.m in Sources */,
+				181B920F13EBE49A00B1CA6E /* imgOrientViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		181B920113EBE49A00B1CA6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B920213EBE49A00B1CA6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		181B920A13EBE49A00B1CA6E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B920B13EBE49A00B1CA6E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		181B921013EBE49A00B1CA6E /* imgOrientViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B921113EBE49A00B1CA6E /* en */,
+			);
+			name = imgOrientViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181B921313EBE49A00B1CA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181B921413EBE49A00B1CA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		181B921613EBE49A00B1CA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imgOrient/imgOrient-Prefix.pch";
+				INFOPLIST_FILE = "imgOrient/imgOrient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		181B921713EBE49A00B1CA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imgOrient/imgOrient-Prefix.pch";
+				INFOPLIST_FILE = "imgOrient/imgOrient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181B91EE13EBE49A00B1CA6E /* Build configuration list for PBXProject "imgOrient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B921313EBE49A00B1CA6E /* Debug */,
+				181B921413EBE49A00B1CA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181B921513EBE49A00B1CA6E /* Build configuration list for PBXNativeTarget "imgOrient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B921613EBE49A00B1CA6E /* Debug */,
+				181B921713EBE49A00B1CA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181B91EB13EBE49A00B1CA6E /* Project object */;
+}
