@@ -1,3 +1,6 @@
-This is an alternate implementation of the project available at github(https://github.com/alexrepty/Paging-Enabled-UIScrollView-With-Previews). Instead of two scroll-views, I've tried it with one scroll-view and used scrollRectToVisible: method to give it a bubble like effect. A multiple table-view based scroll view is still to be implemented...
-
-All feedback is welcome!
+This app manipulates image orientations to provide for the 4 most basic and commonly used image effects like flip vertically or horizontally and rotate 90 degrees left or right. Four methods implement these effects: 
+-(IBAction)Rotate90DegreesLeft;
+-(IBAction)Rotate90DegreesRight;
+-(IBAction)VerticalFlipEffect;
+-(IBAction)HorizontalFlipEffect;
+These are pretty easy to understand and can simply be copied into your project with no major changes!
