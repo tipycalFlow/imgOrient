@@ -1,4 +1,4 @@
-This app manipulates image orientations to provide for the 4 most basic and commonly used image effects like flip vertically or horizontally and rotate 90 degrees left or right. Four methods implement these effects: 
+This app manipulates image orientations to provide for the 4 most basic and commonly used image effects namely flip vertically or horizontally and rotate 90 degrees left or right. Four methods implement these effects: 
 
 -(IBAction)Rotate90DegreesLeft;
 
