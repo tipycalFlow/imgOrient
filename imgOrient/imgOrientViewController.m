@@ -99,6 +99,7 @@
 {
     orientation = 0;
     [mImageView setImage:[UIImage imageNamed:@"1.png"]];
+    [mImageView setContentMode:UIViewContentModeScaleAspectFit];
     [super viewDidLoad];
 }
 
